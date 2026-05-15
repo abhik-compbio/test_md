@@ -1,0 +1,45 @@
+# This file was created Fri May 15 10:32:27 2026
+# Created by:
+#                      :-) GROMACS - gmx energy, 2019.2 (-:
+# 
+# Executable:   /shared/software/chem/gromacs/gromacs-2019.2-ompi/bin/gmx
+# Data prefix:  /shared/software/chem/gromacs/gromacs-2019.2-ompi
+# Working dir:  /home/ws/rs6725/test_md
+# Command line:
+#   gmx energy -f nvt.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Great Red Owns Many ACres of Sand 
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  298.079071
+    5.000000  285.735352
+   10.000000  289.378113
+   15.000000  293.158752
+   20.000000  297.662476
+   25.000000  299.652283
+   30.000000  295.288513
+   35.000000  293.037689
+   40.000000  296.223724
+   45.000000  298.487427
+   50.000000  295.115479
+   55.000000  296.444366
+   60.000000  301.349396
+   65.000000  296.311340
+   70.000000  296.284393
+   75.000000  297.544678
+   80.000000  297.479492
+   85.000000  303.926788
+   90.000000  300.039673
+   95.000000  298.088684
+  100.000000  298.256226
