@@ -275,17 +275,19 @@ gmx mdrun -deffnm md_0_1
 ```
 ### Performance Summary
 
-For a **1 ns MD simulation**, the performance statistics were:
+Core time (s): 11223.211  
+Wall time (s): 701.506  
+Parallel efficiency (%): 1599.9  
 
-```
-Core time (s)   : 11223.211
-Wall time (s)   : 701.506
-Parallel efficiency (%) : 1599.9
+**Performance**
+- ns/day: 123.164  
+- hour/ns: 0.195  
 
-Performance:
-(ns/day)        : 123.164
-(hour/ns)       : 0.195
-```
+### Notes
+- Core time = total CPU time across all cores  
+- Wall time = actual elapsed time  
+- ns/day = simulation speed  
+- hour/ns = time per nanosecond
 
 ### Interpretation
 
