@@ -278,10 +278,13 @@ gmx mdrun -deffnm md_0_1
 For a **1 ns MD simulation**, the performance statistics were:
 
 ```
-Core t (s)   Wall t (s)        (%)
-    Time:    11223.211      701.506     1599.9
-              (ns/day)    (hour/ns)
-Performance:     123.164        0.195
+Core time (s)   : 11223.211
+Wall time (s)   : 701.506
+Parallel efficiency (%) : 1599.9
+
+Performance:
+(ns/day)        : 123.164
+(hour/ns)       : 0.195
 ```
 
 ### Interpretation
